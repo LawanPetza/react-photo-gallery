@@ -7,10 +7,10 @@ import MyGallery from './components/Gallery';
 class App extends Component {
   render() {
     return (
-      <div className="img-container">
       <div className="img">
+      <div className="img-container">
 
-      <Gallery photos={MyGallery} />
+      <Gallery photos={MyGallery} direction={"column"} />
 
 
       </div>
